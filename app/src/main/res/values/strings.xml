@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">City Pizza</string>
+
+<string-array name="menu_item_names">
+    <item>Pizza</item>
+    <item>Calzone</item>
+    <item>Pasta</item>
+    <item>Pizza by the slice</item>
+    <item>Heroes</item>
+    <item>Drinks</item>
+    <item>Desserts</item>
+</string-array>
+
+<string-array name="menu_item_descriptions">
+    <item>18 inch Neapolitan Style Pizza with Cheese</item>
+    <item>Filled with Ricotta and Mozzarella</item>
+    <item>Choice of Pasta and Sauce</item>
+    <item>Various pizza slices</item>
+    <item>Various Parmigiano Heroes </item>
+    <item>Cans of Soda</item>
+    <item>Various Desserts</item>
+</string-array>
+
+<string-array name="menu_item_prices">
+    <item>15.99</item>
+    <item>8.99</item>
+    <item>11.99</item>
+    <item>3.99</item>
+    <item>8.99</item>
+    <item>2.99</item>
+    <item>4.99</item>
+</string-array>
+
+<!-- Modifications for Pizza -->
+<string-array name="pizza_modifications">
+    <item>Add Pepperoni +$2.50:2.50</item>
+    <item>Add Olives +$1.50:1.50</item>
+    <item>Add Extra Cheese +$1.50:1.50</item>
+    <item>Well Done:0.0</item>
+</string-array>
+
+<!-- Modifications for Calzone -->
+<string-array name="Calzone_modifications">
+    <item>Add Prosciutto +$2.50:2.50</item>
+    <item>Add Pepperoni +$2.50:2.50</item>
+    <item>Well Done:0.0</item>
+</string-array>
+
+<!-- Modifications for Pasta -->
+<string-array name="pasta_modifications">
+    <item>Spaghetti:0.0</item>
+    <item>Penne:0.0</item>
+    <item>Fettuccine:0.0</item>
+    <item>Tomato Sauce:0.0</item>
+    <item>Garlic and Oil +$1:1.0</item>
+    <item>Alfredo +$1.50:1.50</item>
+    <item>Alla Vodka +$1.50:1.50</item>
+</string-array>
+
+<!-- Modifications for Slices -->
+<string-array name="slice_modifications">
+    <item>Regular:0.0</item>
+    <item>Sicilian:0.0</item>
+    <item>Buffalo Chicken +$2:2.0</item>
+    <item>Add Pepperoni +$2.50:2.50</item>
+    <item>Add Olives +$2.50:1.50</item>
+    <item>Add Extra Cheese +$1.50:1.50</item>
+    <item>Well Done:0.0</item>
+</string-array>
+
+    <!-- Modifications for Heroes -->
+    <string-array name="hero_modifications">
+        <item>Chicken Parmigiano:0.0</item>
+        <item>Meatball Parmigiano:0.0</item>
+        <item>Veal Parmigiano +$2:2.0</item>
+        <item>Add Extra Cheese +$0.75:0.75</item>
+        <item>Well Done:0.0</item>
+    </string-array>
+
+    <!-- Modifications for Drinks -->
+    <string-array name="drink_modifications">
+        <item>Coke:0.0</item>
+        <item>Diet Coke:0.0</item>
+        <item>Sprite:0.0</item>
+        <item>Root Beer:0.0</item>
+    </string-array>
+
+    <!-- Modifications for Desserts -->
+    <string-array name="dessert_modifications">
+        <item>Cannoli:0.0</item>
+        <item>Italian Ice (2 scoops):0.0</item>
+        <item>Biscotti:-2.0</item>
+        <item>Italian Cheesecake:0.0</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/button_clear_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Cart" />
+
+    <Button
+        android:id="@+id/button_order_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order History"
+        android:layout_marginTop="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_cart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/text_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: $0.00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_order_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_pickup_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="65dp"/>
+</LinearLayout>

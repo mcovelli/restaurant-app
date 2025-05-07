@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_menu">
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.restaurantapp.fragment.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.restaurantapp.fragment.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_directions"
+        android:name="com.example.restaurantapp.fragment.DirectionsFragment"
+        android:label="Directions"
+        tools:layout="@layout/fragment_directions" />
+
+    <fragment
+        android:id="@+id/orderHistoryFragment"
+        android:name="com.example.restaurantapp.fragment.OrderHistoryFragment"
+        android:label="Order History"
+        tools:layout="@layout/fragment_order_history" />
+</navigation>
